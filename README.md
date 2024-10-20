@@ -1,0 +1,2 @@
+# WindWakerUnlocked
+Attempts at unlocking the FPS of Wind Waker HD. Currently while this does unlock the FPS (at least the swap interval, something is still capping things to 60), the gameplay speed is still 2x. Work in progress.
