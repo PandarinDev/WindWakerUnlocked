@@ -4,15 +4,24 @@ moduleMatches = 0xB7E748DE
 # Override swap interval call
 0x274c3b8 = nop
 
+# Used by a lot of places, not sure what?
+# 0x1048d0d0 = .float 100.0
+
 # 0x1046cd48 <- X position
 # 0x1046cd4c <- Y position
 # 0x1046cd50 <- Z position
 # 0x10474c5e <- Money
 
+# FUN_025d6768 <- Modifying acceleration values?
+
 # global object: param_1 = 0x47c6cac4
 # param_1 + 0x314 = x position
 # param_1 + 0x318 = y position
 # param_1 + 0x31c = z position
+
+# param_1 + 0x33c = x acceleration ?
+# param_1 + 0x340 = y acceleration ?
+# param_1 + 0x344 = z acceleration ?
 
 # Previous attempts at manipulating vsync calls
 # 0x274d148 = blr
